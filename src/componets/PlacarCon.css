@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.PlacarContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+}
+
+.InfoPartida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+    width: 10vw;
+}
+
+.Local{
+    display: flex;
+    justify-content: center;
+    padding: 0.5vw;
+    width: 10vw;
+    border-radius: 20px;
+    background: #e0e0e0;
+    font-size: 1.3vw;
+    color: #5a5a5a;
+}
+
+p{
+    margin-top: 1vh;
+    color: #5a5a5a;
+}
+
+h2{
+    margin-left: 9vw;
+    margin-bottom: 2vw;
+    color: #202020;
+}
